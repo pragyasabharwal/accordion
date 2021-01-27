@@ -20,6 +20,7 @@ div{
     display: flex;
     flex-flow: row wrap;
     overflow: hidden;
+    
 
 }
 h2{
@@ -67,10 +68,14 @@ span{
     float: right;
     transition: 0.2s;
     /* transform: rotateX(180deg); */
+    cursor: pointer;
 }
 .add{
     font-size: 12px;
     width: 25.5em;
     line-height: 1.5em;
-    color: hsl(240, 6%, 50%)
+    color: hsl(240, 6%, 50%);
+    display: none;
+    
+    
 }
