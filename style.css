@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kumbh Sans', sans-serif;
+   
+}
+div{
+    background-color: white;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    width: 58%;
+    height: 90%;
+    padding: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+
+}
+h2{
+    padding-bottom: 0.6em;
+    }
+.main{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -6em;
+    height: 20em;
+    z-index: 2;
+    
+}
+.box{
+    position: absolute;
+    margin-top: 14em;
+    margin-left: 10.8em;
+    z-index: 3;
+}
+
+.pattern {
+    height: 65em;
+    margin-left: -68em;
+    margin-top: -23em;
+    margin-bottom: -12em;
+    z-index: 1;
+
+}
+hr{
+    height: 1px;
+    background-color: hsl(240, 5%, 91%);
+    border: none;
+}
+section{
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 5em;
+}
+span{
+    color: hsl(240, 6%, 50%);
+    font-size: 12px;
+}
+.arrow{
+    padding-left: 3em;
+    float: right;
+    transition: 0.2s;
+    /* transform: rotateX(180deg); */
+}
+.add{
+    font-size: 12px;
+    width: 25.5em;
+    line-height: 1.5em;
+    color: hsl(240, 6%, 50%)
+}
